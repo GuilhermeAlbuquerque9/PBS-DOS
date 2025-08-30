@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Contato | PontoBat Sistemas™</title>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: #e0e0e0;
+      font-family: 'Courier New', Courier, monospace;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #2e2e2e;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 3px solid #00ff99;
+    }
+
+    header h1 {
+      color: #00bfff;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #66ffff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff6600;
+    }
+
+    .content {
+      padding: 30px;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    form {
+      background-color: #2a2a2a;
+      padding: 20px;
+      border-left: 5px solid #00ff99;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+      color: #ffcc00;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      background-color: #1a1a1a;
+      border: 1px solid #00ff99;
+      color: #fff;
+      font-family: inherit;
+    }
+
+    button {
+      margin-top: 20px;
+      background-color: #00bfff;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #0099cc;
+    }
+
+    footer {
+      background-color: #2e2e2e;
+      color: #999;
+      text-align: center;
+      padding: 15px;
+      border-top: 2px solid #00ff99;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>📧 Contato</h1>
+    <p>Fale com a equipe da PontoBat Sistemas™</p>
+  </header>
+
+  <nav>
+  <a href="index.html">Início</a>
+  <a href="Downloads.html">Downloads</a>
+  <a href="Sobre.html">Sobre</a>
+  <a href="Contato.html">Contato</a>
+  <a href="https://guilhermealbuquerque9.github.io./PontoBat-Sistemas" target="_blank">PontoBat Sistemas™</a>
+</nav>
+
+  <div class="content">
+    <form action="mailto:PontoBat.Sistemas@gmail.com" method="post" enctype="text/plain">
+      <label for="nome">Seu nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">Seu e-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+
+      <button type="submit">Enviar mensagem</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>© PontoBat Sistemas™, 2025. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
